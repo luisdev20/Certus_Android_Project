@@ -25,6 +25,11 @@ public class MainActivity extends AppCompatActivity {
         txtPass=findViewById(R.id.txtPassword);
     }
 
+    public void EnvioPrueba(View view){
+            Intent x = new Intent(this,frmManTipoUser.class);
+            startActivity(x);
+    }
+
     public Connection conexionBD(){
         Connection cnn=null;
         try {

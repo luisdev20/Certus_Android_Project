@@ -19,7 +19,7 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="MENU"
+            android:text="MENU ADMINISTRADOR"
             android:textAlignment="center"
             android:textSize="16sp" />
 
@@ -81,6 +81,7 @@
             android:id="@+id/button14"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="manProducto"
             android:text="MANT. PRODUCTOS" />
 
         <Space
